@@ -1,0 +1,16 @@
+﻿<Window x:Class="UserComponent.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserComponent"
+        xmlns:components="clr-namespace:UserComponent.Views"
+        mc:Ignorable="d"
+        Background="Beige"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <components:Card MyButtonText="QWERTY" x:Name="One" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="Auto" Height="Auto" Margin="363,0,0,0" Loaded="One_Loaded"></components:Card>
+        <components:Card MyButtonText="BLAH" x:Name="Two" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Height="Auto"></components:Card>
+        <PasswordBox HorizontalAlignment="Left" Margin="192,361,0,0" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
