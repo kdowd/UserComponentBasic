@@ -9,10 +9,13 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Border BorderBrush="Black" BorderThickness="1" Padding="50">
         <Grid>
-            <Image  Source="/images/rugby.png"  Width="200" Height="200"/>
-            <Button x:Name="EventButton" Content="Dummy" HorizontalAlignment="Center" VerticalAlignment="Center"  Padding="20 10" Margin="0,40,0,0" />
-            <TextBlock Text="Weekend Meeting at Taupo" Margin="0 0 0 20" Foreground="Crimson" HorizontalAlignment="Center" VerticalAlignment="Center" Height="18" RenderTransformOrigin="0.5,0.5"  >
+
+            <TextBlock Text="Weekend Meeting at Taupo" Margin="0 -40 0 0" SnapsToDevicePixels="True" FontSize="18" Foreground="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center"   >
             </TextBlock>
+            <Button x:Name="EventButton" Content="Dummy" HorizontalAlignment="Center" VerticalAlignment="Center"  Padding="20 10" Margin="0,40,0,0" />
+            <CheckBox Content="Agree Terms" IsChecked="True" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="413,187,0,0" />
+            <Rectangle Height="100" Stroke="Black" Fill="Crimson" Width="400" Panel.ZIndex="-2"/>
+
 
         </Grid>
     </Border>
